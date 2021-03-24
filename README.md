@@ -1,2 +1,3 @@
-# bot-ama-reklamci
-reklamcı bot
+﻿# DiscordReklamBotuAltyapı
+
+
