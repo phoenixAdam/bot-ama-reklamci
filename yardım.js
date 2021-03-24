@@ -2,10 +2,10 @@ const Discord = require("discord.js");
 const db = require('quick.db');
 exports.run = (client, message, args) => {
     let mesaj = args.slice(0).join(' ');
-    if (mesaj.length < 1) return message.channel.send('**YARDIM MENÜSÜ**'
-        '**<> ve [] Sadece Örnek Verebilmek Amacıyla Konmuştur. Komut Yazarken Onları Kullanmayınız'
-        'pr:reklam-yap <link> : Attığınız Linkle Reklam Yapar'
-        'pr:reklam-kaldır <mesajID> : Reklamı Kaldırır (Sadece **Kurucu ve Reklam Görevlisi** Yapabilir'
+    if (mesaj.length < 1) return message.channel.send('**YARDIM MENÃœSÃœ**'
+        '**<> ve [] Sadece Ã–rnek Verebilmek AmacÄ±yla KonmuÅŸtur. Komut Yazarken OnlarÄ± KullanmaÄ±nÄ±z'
+        'pr:reklam-yap <link> : AttÄ±ÄŸÄ±nÄ±z Linkle Reklam Yapar'
+        'pr:reklam-kaldÃ½r <mesajID> : ReklamÄ± KaldÄ±rÄ±r (Sadece **Kurucu ve Reklam GÃ¶revlisi** Yapabilir'
         'pr:reload : Botu Reloadlar'    );
     message.delete();
     const mesajat = new Discord.RichEmbed()
